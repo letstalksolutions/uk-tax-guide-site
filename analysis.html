@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UK Limited Company Tax Planning Guide</title>
+    <title>Case Analysis | Limited Company Tax Planning Guide</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="interactive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -19,103 +18,245 @@
 
     <nav>
         <div class="container">
-            <button id="menu-toggle" class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="tax-rates.html">Tax Rates</a></li>
                 <li><a href="strategies.html">Tax Strategies</a></li>
-                <li><a href="analysis.html">Case Analysis</a></li>
+                <li><a href="analysis.html" class="active">Case Analysis</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
                 <li><a href="compliance.html">Legal Compliance</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="breadcrumbs">
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </div>
-    </div>
-
     <main>
         <div class="container">
-            <div class="search-container">
-                <div class="search-box">
-                    <input type="text" id="search-input" placeholder="Search tax strategies...">
-                    <button id="search-button"><i class="fas fa-search"></i></button>
-                </div>
-                <div id="search-results" class="search-results"></div>
-            </div>
+            <div class="page-content">
+                <h2>Optimal Salary/Dividend Structure Analysis</h2>
+                <p>This page presents a detailed analysis of different tax planning scenarios for a limited company with £11,000 monthly income (£132,000 annual). Each scenario is analyzed for tax efficiency to determine the optimal approach.</p>
 
-            <section class="hero">
-                <h2>Strategic Tax Planning for UK Limited Companies</h2>
-                <p>Legitimate tax efficiency strategies to minimize your tax liability while ensuring full compliance with HMRC requirements.</p>
-                <a href="recommendations.html" class="btn">View Recommendations</a>
-            </section>
-
-            <section class="features">
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-calculator"></i></div>
-                    <h3>Optimal Salary/Dividend Split</h3>
-                    <p>Strategically balance salary and dividend payments to minimize tax while maintaining compliance.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-users"></i></div>
-                    <h3>Family Tax Planning</h3>
-                    <p>Utilize family members' tax allowances through legitimate employment and share ownership.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-piggy-bank"></i></div>
-                    <h3>Pension Optimization</h3>
-                    <p>Leverage company pension contributions for significant tax advantages.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-receipt"></i></div>
-                    <h3>Business Expense Strategies</h3>
-                    <p>Maximize allowable business expenses to reduce taxable profits legitimately.</p>
-                </div>
-            </section>
-
-            <section class="overview">
-                <h2>Comprehensive Tax Planning Approach</h2>
-                <p>This website provides detailed guidance on tax-efficient operation of UK limited companies, based on thorough research of current tax regulations and analysis of various scenarios. All strategies represent legitimate tax planning rather than aggressive tax avoidance or evasion.</p>
-                
-                <div class="key-points">
-                    <h3>Key Benefits</h3>
+                <div class="case-overview">
+                    <h3>Current Situation</h3>
                     <ul>
-                        <li>Potential tax savings of £12,000-£16,000 annually</li>
-                        <li>Reduction in effective tax rate to approximately 28-30%</li>
-                        <li>Strategies tailored for companies with £50,000-£150,000 annual income</li>
-                        <li>Full compliance with UK tax legislation</li>
-                        <li>Implementation roadmap with immediate, short-term and long-term actions</li>
+                        <li>Monthly company income: £11,000</li>
+                        <li>Annual company income: £132,000</li>
+                        <li>Director's loan provided: £600</li>
+                        <li>One employee (husband) to be paid: £200-£300 per month (£2,400-£3,600 annually)</li>
+                        <li>Company has only 1 share (owned by the director)</li>
                     </ul>
                 </div>
-            </section>
 
-            <section class="table-of-contents">
-                <h3>Site Contents</h3>
-                <ul>
-                    <li><a href="tax-rates.html"><i class="fas fa-percentage"></i> UK Tax Rates (2025/26)</a></li>
-                    <li><a href="strategies.html"><i class="fas fa-lightbulb"></i> Tax Efficiency Strategies</a></li>
-                    <li><a href="analysis.html"><i class="fas fa-chart-bar"></i> Case Analysis & Scenarios</a></li>
-                    <li><a href="recommendations.html"><i class="fas fa-clipboard-list"></i> Comprehensive Recommendations</a></li>
-                    <li><a href="compliance.html"><i class="fas fa-balance-scale"></i> Legal Compliance Review</a></li>
-                </ul>
-            </section>
-
-            <section class="cta">
-                <h2>Start Optimizing Your Tax Position Today</h2>
-                <p>Explore our comprehensive resources to develop a tax-efficient strategy for your limited company.</p>
-                <div class="cta-buttons">
-                    <a href="tax-rates.html" class="btn">Current Tax Rates</a>
-                    <a href="strategies.html" class="btn">Tax Strategies</a>
-                    <a href="recommendations.html" class="btn">View Recommendations</a>
+                <div class="scenario">
+                    <h3>Scenario 1: Minimum Salary Strategy</h3>
+                    
+                    <h4>Director's Salary</h4>
+                    <ul>
+                        <li>Annual salary: £5,000 (£416.67 monthly)</li>
+                        <li>Rationale: Just below the Secondary Threshold (£5,000) for employer NI contributions</li>
+                    </ul>
+                    
+                    <h4>Tax Implications</h4>
+                    <ul>
+                        <li>No income tax (below Personal Allowance of £12,570)</li>
+                        <li>No employee NI contributions (below Primary Threshold of £12,570)</li>
+                        <li>No employer NI contributions (below Secondary Threshold of £5,000)</li>
+                        <li>Corporation tax reduction: £5,000 × 19% = £950 (assuming small profits rate applies)</li>
+                    </ul>
+                    
+                    <h4>Husband's Salary</h4>
+                    <ul>
+                        <li>Annual salary: £3,600 (£300 monthly)</li>
+                    </ul>
+                    
+                    <h4>Tax Implications</h4>
+                    <ul>
+                        <li>No income tax (below Personal Allowance of £12,570)</li>
+                        <li>No employee NI contributions (below Primary Threshold)</li>
+                        <li>No employer NI contributions (below Secondary Threshold)</li>
+                        <li>Corporation tax reduction: £3,600 × 19% = £684</li>
+                    </ul>
+                    
+                    <h4>Dividend Payments</h4>
+                    <ul>
+                        <li>Available profit for dividends: £132,000 - £5,000 - £3,600 = £123,400</li>
+                        <li>Corporation tax: £123,400 × 19% = £23,446 (assuming profits below £50,000)</li>
+                        <li>Available for dividends after tax: £99,954</li>
+                    </ul>
+                    
+                    <h4>Director's Personal Tax Position</h4>
+                    <ul>
+                        <li>Salary: £5,000 (no tax)</li>
+                        <li>Dividends: £99,954</li>
+                        <li>Personal Allowance remaining: £12,570 - £5,000 = £7,570</li>
+                        <li>Dividend Allowance: £500</li>
+                        <li>Basic rate band dividends (£50,270 - £5,000 = £45,270): £45,270 × 8.75% = £3,961.13</li>
+                        <li>Higher rate band dividends (£99,954 - £45,270 - £7,570 - £500 = £46,614): £46,614 × 33.75% = £15,732.23</li>
+                        <li>Total dividend tax: £19,693.36</li>
+                    </ul>
+                    
+                    <h4>Total Tax Position</h4>
+                    <ul>
+                        <li>Corporation tax: £23,446</li>
+                        <li>Income tax on dividends: £19,693.36</li>
+                        <li>Total tax: £43,139.36</li>
+                        <li>Effective tax rate: 32.68%</li>
+                    </ul>
                 </div>
-            </section>
+
+                <div class="scenario">
+                    <h3>Scenario 2: Optimal Salary Strategy</h3>
+                    
+                    <h4>Director's Salary</h4>
+                    <ul>
+                        <li>Annual salary: £12,570 (£1,047.50 monthly)</li>
+                        <li>Rationale: Equal to Personal Allowance, maximizing tax-free income</li>
+                    </ul>
+                    
+                    <h4>Tax Implications</h4>
+                    <ul>
+                        <li>No income tax (equal to Personal Allowance)</li>
+                        <li>No employee NI contributions (equal to Primary Threshold)</li>
+                        <li>Employer NI contributions: (£12,570 - £5,000) × 15% = £1,135.50</li>
+                        <li>Corporation tax reduction: £12,570 × 19% = £2,388.30</li>
+                    </ul>
+                    
+                    <h4>Husband's Salary</h4>
+                    <ul>
+                        <li>Annual salary: £3,600 (£300 monthly)</li>
+                        <li>Tax implications: Same as Scenario 1</li>
+                    </ul>
+                    
+                    <h4>Dividend Payments</h4>
+                    <ul>
+                        <li>Available profit for dividends: £132,000 - £12,570 - £3,600 - £1,135.50 = £114,694.50</li>
+                        <li>Corporation tax: £114,694.50 × 19% = £21,791.96</li>
+                        <li>Available for dividends after tax: £92,902.54</li>
+                    </ul>
+                    
+                    <h4>Director's Personal Tax Position</h4>
+                    <ul>
+                        <li>Salary: £12,570 (no tax)</li>
+                        <li>Dividends: £92,902.54</li>
+                        <li>Personal Allowance remaining: £0</li>
+                        <li>Dividend Allowance: £500</li>
+                        <li>Basic rate band dividends (£50,270 - £12,570 = £37,700): £37,700 × 8.75% = £3,298.75</li>
+                        <li>Higher rate band dividends (£92,902.54 - £37,700 - £500 = £54,702.54): £54,702.54 × 33.75% = £18,462.11</li>
+                        <li>Total dividend tax: £21,760.86</li>
+                    </ul>
+                    
+                    <h4>Total Tax Position</h4>
+                    <ul>
+                        <li>Corporation tax: £21,791.96</li>
+                        <li>Income tax on dividends: £21,760.86</li>
+                        <li>Employer NI: £1,135.50</li>
+                        <li>Total tax: £44,688.32</li>
+                        <li>Effective tax rate: 33.85%</li>
+                    </ul>
+                </div>
+
+                <div class="scenario">
+                    <h3>Scenario 3: Split Ownership Strategy</h3>
+                    
+                    <h4>Company Structure Change</h4>
+                    <ul>
+                        <li>Redistribute share ownership: 90% director, 10% husband</li>
+                        <li>Director's salary: £8,840 (£736.67 monthly)</li>
+                        <li>Husband's salary: £3,600 (£300 monthly)</li>
+                        <li>Employer NI: (£8,840 - £5,000) × 15% = £576</li>
+                        <li>Total salaries and NI: £13,016</li>
+                    </ul>
+                    
+                    <h4>Dividend Payments</h4>
+                    <ul>
+                        <li>Available profit for dividends: £132,000 - £13,016 = £118,984</li>
+                        <li>Corporation tax: £118,984 × 19% = £22,606.96</li>
+                        <li>Available for dividends after tax: £96,377.04</li>
+                        <li>Director's dividends (90%): £86,739.34</li>
+                        <li>Husband's dividends (10%): £9,637.70</li>
+                    </ul>
+                    
+                    <h4>Director's Personal Tax Position</h4>
+                    <ul>
+                        <li>Salary: £8,840 (no tax)</li>
+                        <li>Dividends: £86,739.34</li>
+                        <li>Personal Allowance remaining: £12,570 - £8,840 = £3,730</li>
+                        <li>Dividend Allowance: £500</li>
+                        <li>Basic rate band dividends (£50,270 - £8,840 = £41,430): £41,430 × 8.75% = £3,625.13</li>
+                        <li>Higher rate band dividends (£86,739.34 - £41,430 - £3,730 - £500 = £41,079.34): £41,079.34 × 33.75% = £13,864.28</li>
+                        <li>Total dividend tax: £17,489.41</li>
+                    </ul>
+                    
+                    <h4>Husband's Personal Tax Position</h4>
+                    <ul>
+                        <li>Salary: £3,600 (no tax)</li>
+                        <li>Dividends: £9,637.70</li>
+                        <li>Personal Allowance remaining: £12,570 - £3,600 = £8,970</li>
+                        <li>Dividend Allowance: £500</li>
+                        <li>Taxable dividends: £9,637.70 - £8,970 - £500 = £167.70</li>
+                        <li>Basic rate tax: £167.70 × 8.75% = £14.67</li>
+                    </ul>
+                    
+                    <h4>Total Tax Position</h4>
+                    <ul>
+                        <li>Corporation tax: £22,606.96</li>
+                        <li>Director's dividend tax: £17,489.41</li>
+                        <li>Husband's dividend tax: £14.67</li>
+                        <li>Employer NI: £576</li>
+                        <li>Total tax: £40,687.04</li>
+                        <li>Effective tax rate: 30.82%</li>
+                    </ul>
+                </div>
+
+                <div class="scenario">
+                    <h3>Scenario 4: Optimal Salary with Pension</h3>
+                    
+                    <h4>Structure</h4>
+                    <ul>
+                        <li>Director's salary: £8,840</li>
+                        <li>Husband's salary: £3,600</li>
+                        <li>Employer pension contribution: £10,000</li>
+                        <li>Employer NI: (£8,840 - £5,000) × 15% = £576</li>
+                        <li>Total salaries, pension and NI: £23,016</li>
+                    </ul>
+                    
+                    <h4>Dividend Payments</h4>
+                    <ul>
+                        <li>Available profit for dividends: £132,000 - £23,016 = £108,984</li>
+                        <li>Corporation tax: £108,984 × 19% = £20,706.96</li>
+                        <li>Available for dividends after tax: £88,277.04</li>
+                    </ul>
+                    
+                    <h4>Total Tax Position</h4>
+                    <ul>
+                        <li>Corporation tax: £20,706.96</li>
+                        <li>Dividend tax (estimated): £16,000 (reduced due to lower dividend amount)</li>
+                        <li>Employer NI: £576</li>
+                        <li>Total tax: £37,282.96</li>
+                        <li>Effective tax rate: 28.24%</li>
+                        <li>Additional benefit: £10,000 in pension fund growing tax-free</li>
+                    </ul>
+                </div>
+
+                <div class="conclusion">
+                    <h3>Analysis Conclusion</h3>
+                    <p>Based on the analysis of these scenarios, the most tax-efficient approach appears to be <strong>Scenario 3 (Split Ownership Strategy)</strong> with the potential addition of pension contributions as in Scenario 4.</p>
+                    
+                    <p>This approach:</p>
+                    <ol>
+                        <li>Utilizes both the director's and husband's personal allowances and dividend allowances</li>
+                        <li>Keeps salaries below NI thresholds where beneficial</li>
+                        <li>Splits dividend income to utilize lower tax bands</li>
+                        <li>Results in the lowest effective tax rate of 30.82% (or 28.24% with pension)</li>
+                        <li>Provides long-term retirement benefits through pension contributions</li>
+                    </ol>
+                    
+                    <p>The exact implementation should be discussed with a qualified accountant to ensure all legal requirements are met, particularly regarding the share ownership restructuring.</p>
+                    
+                    <div class="cta-box">
+                        <a href="recommendations.html" class="btn">View Detailed Recommendations</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -126,70 +267,7 @@
         </div>
     </footer>
 
-    <div id="back-to-top" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-
     <script src="script.js"></script>
-    <script>
-        // Simple search functionality
-        document.getElementById('search-button').addEventListener('click', function() {
-            performSearch();
-        });
-        
-        document.getElementById('search-input').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                performSearch();
-            }
-        });
-        
-        function performSearch() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
-            const resultsContainer = document.getElementById('search-results');
-            
-            if (searchTerm.length < 3) {
-                resultsContainer.innerHTML = '<p>Please enter at least 3 characters to search.</p>';
-                resultsContainer.style.display = 'block';
-                return;
-            }
-            
-            const pages = [
-                { title: 'UK Tax Rates (2025/26)', url: 'tax-rates.html', keywords: ['tax rates', 'corporation tax', 'income tax', 'dividend tax', 'national insurance', 'vat'] },
-                { title: 'Tax Efficiency Strategies', url: 'strategies.html', keywords: ['strategies', 'salary', 'dividend', 'pension', 'expenses', 'allowances'] },
-                { title: 'Case Analysis & Scenarios', url: 'analysis.html', keywords: ['analysis', 'scenarios', 'calculations', 'salary dividend split', 'effective tax rate'] },
-                { title: 'Comprehensive Recommendations', url: 'recommendations.html', keywords: ['recommendations', 'implementation', 'timeline', 'tax savings'] },
-                { title: 'Legal Compliance Review', url: 'compliance.html', keywords: ['compliance', 'legal', 'hmrc', 'anti-avoidance', 'documentation'] }
-            ];
-            
-            const results = pages.filter(page => {
-                return page.title.toLowerCase().includes(searchTerm) || 
-                       page.keywords.some(keyword => keyword.includes(searchTerm));
-            });
-            
-            if (results.length > 0) {
-                let html = '<ul>';
-                results.forEach(result => {
-                    html += `<li><a href="${result.url}">${result.title}</a></li>`;
-                });
-                html += '</ul>';
-                resultsContainer.innerHTML = html;
-            } else {
-                resultsContainer.innerHTML = '<p>No results found. Try different keywords.</p>';
-            }
-            
-            resultsContainer.style.display = 'block';
-        }
-        
-        // Show back to top button when scrolling
-        window.addEventListener('scroll', function() {
-            const backToTop = document.getElementById('back-to-top');
-            if (window.pageYOffset > 300) {
-                backToTop.classList.add('visible');
-            } else {
-                backToTop.classList.remove('visible');
-            }
-        });
-    </script>
 <footer-btn></footer-btn>
 <script>
     // 定义自定义元素

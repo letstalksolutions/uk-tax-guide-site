@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UK Limited Company Tax Planning Guide</title>
+    <title>Tax Strategies | Limited Company Tax Planning Guide</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="interactive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
@@ -19,13 +18,10 @@
 
     <nav>
         <div class="container">
-            <button id="menu-toggle" class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="tax-rates.html">Tax Rates</a></li>
-                <li><a href="strategies.html">Tax Strategies</a></li>
+                <li><a href="strategies.html" class="active">Tax Strategies</a></li>
                 <li><a href="analysis.html">Case Analysis</a></li>
                 <li><a href="recommendations.html">Recommendations</a></li>
                 <li><a href="compliance.html">Legal Compliance</a></li>
@@ -33,89 +29,191 @@
         </div>
     </nav>
 
-    <div class="breadcrumbs">
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </div>
-    </div>
-
     <main>
         <div class="container">
-            <div class="search-container">
-                <div class="search-box">
-                    <input type="text" id="search-input" placeholder="Search tax strategies...">
-                    <button id="search-button"><i class="fas fa-search"></i></button>
-                </div>
-                <div id="search-results" class="search-results"></div>
-            </div>
+            <div class="page-content">
+                <h2>Tax Efficiency Strategies for UK Limited Companies</h2>
+                <p>Based on comprehensive research of UK tax regulations, the following legitimate tax efficiency strategies can be implemented for limited companies. These strategies are designed to minimize tax liability while ensuring full compliance with HMRC requirements.</p>
 
-            <section class="hero">
-                <h2>Strategic Tax Planning for UK Limited Companies</h2>
-                <p>Legitimate tax efficiency strategies to minimize your tax liability while ensuring full compliance with HMRC requirements.</p>
-                <a href="recommendations.html" class="btn">View Recommendations</a>
-            </section>
-
-            <section class="features">
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-calculator"></i></div>
-                    <h3>Optimal Salary/Dividend Split</h3>
-                    <p>Strategically balance salary and dividend payments to minimize tax while maintaining compliance.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-users"></i></div>
-                    <h3>Family Tax Planning</h3>
-                    <p>Utilize family members' tax allowances through legitimate employment and share ownership.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-piggy-bank"></i></div>
-                    <h3>Pension Optimization</h3>
-                    <p>Leverage company pension contributions for significant tax advantages.</p>
-                </div>
-                <div class="feature-box">
-                    <div class="icon"><i class="fas fa-receipt"></i></div>
-                    <h3>Business Expense Strategies</h3>
-                    <p>Maximize allowable business expenses to reduce taxable profits legitimately.</p>
-                </div>
-            </section>
-
-            <section class="overview">
-                <h2>Comprehensive Tax Planning Approach</h2>
-                <p>This website provides detailed guidance on tax-efficient operation of UK limited companies, based on thorough research of current tax regulations and analysis of various scenarios. All strategies represent legitimate tax planning rather than aggressive tax avoidance or evasion.</p>
-                
-                <div class="key-points">
-                    <h3>Key Benefits</h3>
+                <div class="strategy-section">
+                    <h3><i class="fas fa-balance-scale"></i> 1. Optimal Salary/Dividend Split</h3>
+                    
+                    <h4>Strategy</h4>
                     <ul>
-                        <li>Potential tax savings of £12,000-£16,000 annually</li>
-                        <li>Reduction in effective tax rate to approximately 28-30%</li>
-                        <li>Strategies tailored for companies with £50,000-£150,000 annual income</li>
-                        <li>Full compliance with UK tax legislation</li>
-                        <li>Implementation roadmap with immediate, short-term and long-term actions</li>
+                        <li>Pay a strategic salary up to the National Insurance Primary Threshold (£12,570 per year) to maximize tax efficiency</li>
+                        <li>Extract remaining profits as dividends</li>
+                        <li>Consider employing family members (like spouse) at tax-efficient levels</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Salary is tax-deductible for the company, reducing corporation tax</li>
+                        <li>Salary up to £12,570 incurs no income tax (within Personal Allowance)</li>
+                        <li>Salary between £5,000 and £12,570 incurs no employee NI but does incur employer NI at 15%</li>
+                        <li>Salary below £5,000 incurs no NI contributions at all (below Secondary Threshold)</li>
+                        <li>Dividends are taxed at lower rates than equivalent salary (8.75% basic rate vs 20% income tax)</li>
+                        <li>Dividends don't incur National Insurance contributions</li>
                     </ul>
                 </div>
-            </section>
 
-            <section class="table-of-contents">
-                <h3>Site Contents</h3>
-                <ul>
-                    <li><a href="tax-rates.html"><i class="fas fa-percentage"></i> UK Tax Rates (2025/26)</a></li>
-                    <li><a href="strategies.html"><i class="fas fa-lightbulb"></i> Tax Efficiency Strategies</a></li>
-                    <li><a href="analysis.html"><i class="fas fa-chart-bar"></i> Case Analysis & Scenarios</a></li>
-                    <li><a href="recommendations.html"><i class="fas fa-clipboard-list"></i> Comprehensive Recommendations</a></li>
-                    <li><a href="compliance.html"><i class="fas fa-balance-scale"></i> Legal Compliance Review</a></li>
-                </ul>
-            </section>
-
-            <section class="cta">
-                <h2>Start Optimizing Your Tax Position Today</h2>
-                <p>Explore our comprehensive resources to develop a tax-efficient strategy for your limited company.</p>
-                <div class="cta-buttons">
-                    <a href="tax-rates.html" class="btn">Current Tax Rates</a>
-                    <a href="strategies.html" class="btn">Tax Strategies</a>
-                    <a href="recommendations.html" class="btn">View Recommendations</a>
+                <div class="strategy-section">
+                    <h3><i class="fas fa-users"></i> 2. Strategic Use of Tax Allowances</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Utilize the £500 dividend allowance</li>
+                        <li>Maximize use of the Personal Allowance (£12,570)</li>
+                        <li>Consider splitting share ownership with spouse to utilize two sets of allowances</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>First £500 of dividends are tax-free (dividend allowance)</li>
+                        <li>Using both spouses' allowances could save up to £5,000+ in tax annually</li>
+                    </ul>
                 </div>
-            </section>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-piggy-bank"></i> 3. Pension Contributions</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Make employer pension contributions directly from the company</li>
+                        <li>Consider higher pension contributions instead of higher salary/dividends</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Company pension contributions are tax-deductible business expenses</li>
+                        <li>No National Insurance payable on pension contributions</li>
+                        <li>Tax-efficient way to extract value from the company</li>
+                        <li>Builds retirement wealth in a tax-advantaged environment</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-calendar-alt"></i> 4. Strategic Timing of Income</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Time dividend declarations to span multiple tax years</li>
+                        <li>Consider declaring dividends in March and April to split across tax years</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Utilizes annual allowances more effectively</li>
+                        <li>May keep income in lower tax bands</li>
+                        <li>Spreads tax liability across different periods</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-hand-holding-usd"></i> 5. Employment Allowance</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Claim Employment Allowance if eligible (for companies with multiple employees)</li>
+                        <li>This reduces employer's National Insurance bill by up to £5,000</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Directly reduces tax costs for the company</li>
+                        <li>Makes employing family members more cost-effective</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-exchange-alt"></i> 6. Director's Loan Management</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Strategically use director's loans for short-term financing</li>
+                        <li>Ensure loans are repaid within 9 months of year-end to avoid tax charges</li>
+                        <li>Consider charging interest at the official HMRC rate</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Provides flexible access to company funds</li>
+                        <li>Interest on loans to the company can be tax-deductible for the company</li>
+                        <li>Interest received personally may be covered by personal savings allowance</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-receipt"></i> 7. Maximizing Allowable Business Expenses</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Ensure all legitimate business expenses are properly claimed</li>
+                        <li>Consider salary sacrifice arrangements for certain benefits</li>
+                        <li>Implement formal policies for expense reimbursement</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Reduces taxable profits, lowering corporation tax</li>
+                        <li>Provides tax-free benefits to directors/employees</li>
+                        <li>Converts potentially taxable income into tax-free benefits</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-home"></i> 8. Use of Home as Office</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Claim home office allowance for business use of home</li>
+                        <li>Consider formal rental agreement between director and company</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Tax-deductible expense for the company</li>
+                        <li>Potential capital gains tax advantages for homeowner</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-building"></i> 9. Strategic Company Structure</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Consider whether multiple companies might be beneficial</li>
+                        <li>Evaluate holding company structures for larger businesses</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>May allow profits to be retained at lower corporation tax rates</li>
+                        <li>Can provide flexibility in profit extraction</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-section">
+                    <h3><i class="fas fa-flask"></i> 10. Research and Development Tax Credits</h3>
+                    
+                    <h4>Strategy</h4>
+                    <ul>
+                        <li>Identify any qualifying R&D activities within the business</li>
+                        <li>Claim enhanced tax relief on qualifying expenditure</li>
+                    </ul>
+                    
+                    <h4>Benefits</h4>
+                    <ul>
+                        <li>Up to 230% tax relief on qualifying R&D expenditure</li>
+                        <li>Potential for tax credits even when loss-making</li>
+                    </ul>
+                </div>
+
+                <div class="cta-box">
+                    <h3>Implementation Considerations</h3>
+                    <p>While these strategies represent legitimate tax planning approaches, their suitability depends on your specific circumstances. It's advisable to consult with a qualified accountant before implementation to ensure they're appropriate for your business and to address any recent regulatory changes.</p>
+                    <a href="recommendations.html" class="btn">View Tailored Recommendations</a>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -126,70 +224,7 @@
         </div>
     </footer>
 
-    <div id="back-to-top" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-
     <script src="script.js"></script>
-    <script>
-        // Simple search functionality
-        document.getElementById('search-button').addEventListener('click', function() {
-            performSearch();
-        });
-        
-        document.getElementById('search-input').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                performSearch();
-            }
-        });
-        
-        function performSearch() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
-            const resultsContainer = document.getElementById('search-results');
-            
-            if (searchTerm.length < 3) {
-                resultsContainer.innerHTML = '<p>Please enter at least 3 characters to search.</p>';
-                resultsContainer.style.display = 'block';
-                return;
-            }
-            
-            const pages = [
-                { title: 'UK Tax Rates (2025/26)', url: 'tax-rates.html', keywords: ['tax rates', 'corporation tax', 'income tax', 'dividend tax', 'national insurance', 'vat'] },
-                { title: 'Tax Efficiency Strategies', url: 'strategies.html', keywords: ['strategies', 'salary', 'dividend', 'pension', 'expenses', 'allowances'] },
-                { title: 'Case Analysis & Scenarios', url: 'analysis.html', keywords: ['analysis', 'scenarios', 'calculations', 'salary dividend split', 'effective tax rate'] },
-                { title: 'Comprehensive Recommendations', url: 'recommendations.html', keywords: ['recommendations', 'implementation', 'timeline', 'tax savings'] },
-                { title: 'Legal Compliance Review', url: 'compliance.html', keywords: ['compliance', 'legal', 'hmrc', 'anti-avoidance', 'documentation'] }
-            ];
-            
-            const results = pages.filter(page => {
-                return page.title.toLowerCase().includes(searchTerm) || 
-                       page.keywords.some(keyword => keyword.includes(searchTerm));
-            });
-            
-            if (results.length > 0) {
-                let html = '<ul>';
-                results.forEach(result => {
-                    html += `<li><a href="${result.url}">${result.title}</a></li>`;
-                });
-                html += '</ul>';
-                resultsContainer.innerHTML = html;
-            } else {
-                resultsContainer.innerHTML = '<p>No results found. Try different keywords.</p>';
-            }
-            
-            resultsContainer.style.display = 'block';
-        }
-        
-        // Show back to top button when scrolling
-        window.addEventListener('scroll', function() {
-            const backToTop = document.getElementById('back-to-top');
-            if (window.pageYOffset > 300) {
-                backToTop.classList.add('visible');
-            } else {
-                backToTop.classList.remove('visible');
-            }
-        });
-    </script>
 <footer-btn></footer-btn>
 <script>
     // 定义自定义元素
